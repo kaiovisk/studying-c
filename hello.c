@@ -1,9 +1,9 @@
 #include <stdio.h>
 
-int main (int argc, char **argv) 
-{
-	char hello[14] = "hello, world!";
-	printf("%s\n", hello);
+int main(int argc, char **argv) {
 
-	return 0;
+  char hello[] = "hello, world!";
+  printf("%s\n", hello);
+
+  return 0;
 }
